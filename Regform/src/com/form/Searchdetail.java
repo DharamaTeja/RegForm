@@ -47,7 +47,7 @@ if(rs.next())
 	 out.append("<td>"+rs.getString(8)+"</td>");
 	 out.append("</tr>");
 	
-	out.append("</table><br>");
+	out.append("</table><br>");//end of table
 
 	out.append("<a href='regform.html'>GoToMain</a></body></html>");
 }
